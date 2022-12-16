@@ -1,0 +1,3 @@
+.button {
+  @apply dark:bg-honey w-fit border-2 hover:bg-transparent hover:text-dark-grey transition-colors shadow-sm text-xl py-3 px-6 rounded-md;
+}

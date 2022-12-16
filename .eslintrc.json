@@ -23,6 +23,12 @@
     "rules": {
         "quote-props": ["error", "consistent"],
         "quotes": ["error", "double"],
+        "linebreak-style": 0,
+        "import/no-named-as-default": 0,
+        "import/no-named-as-default-member": 0,
+        "arrow-body-style": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/prop-types": 0,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "react/function-component-definition": [
             2,
