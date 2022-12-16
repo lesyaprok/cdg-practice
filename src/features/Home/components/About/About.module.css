@@ -1,5 +1,5 @@
 .wrapper {
-  @apply container mx-auto py-3 flex flex-col-reverse md:flex-row md:gap-6 items-center justify-between md:min-h-screen;
+  @apply container mx-auto py-2 flex flex-col-reverse md:flex-row md:gap-6 items-center justify-between md:min-h-screen;
 }
 
 .main {
@@ -7,11 +7,11 @@
 }
 
 .title {
-  @apply text-dark font-semibold text-2xl sm:text-3xl md:text-4xl md:text-left lg:text-5xl text-center;
+  @apply text-dark-grey font-semibold text-2xl sm:text-3xl md:text-4xl md:text-left lg:text-5xl text-center;
 }
 
 .subtitle {
-  @apply text-dark text-sm sm:text-xl text-center md:text-left;
+  @apply text-dark-grey text-sm sm:text-xl text-center md:text-left;
 }
 
 .button {

@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
+  variants: {
+    backgroundColor: ["dark", "dark-hover", "dark-group-hover", "dark-even", "dark-odd"],
+    borderColor: ["dark", "dark-disabled", "dark-focus", "dark-focus-within"],
+    textColor: ["dark", "dark-hover", "dark-active", "dark-placeholder"],
+    opacity: ["responsive", "hover", "focus", "disabled"],
+  },
   theme: {
     extend: {
       container: {
@@ -14,7 +21,7 @@ module.exports = {
         padding: "2rem",
       },
       colors: {
-        "dark": "#112D32",
+        "dark-grey": "#112D32",
         "dark-green": "#116451",
         "light-grey": "#D1EBE2",
         "beige": "#FFCB9A",
