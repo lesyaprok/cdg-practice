@@ -1,10 +1,13 @@
 import React from "react";
 
-import "./App.css";
+import styles from "./App.module.css";
+import About from "./features/Home/components/About/About";
 
 function App() {
   return (
-    <div className="App" />
+    <div className={styles.app}>
+      <About />
+    </div>
   );
 }
 

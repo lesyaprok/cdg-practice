@@ -1,0 +1,3 @@
+.app {
+  @apply bg-gradient-to-b from-slate-100 to-slate-200 min-h-screen;
+}
